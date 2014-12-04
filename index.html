@@ -2,14 +2,18 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>murshop</title>
+    <title>Мур Шоп | Главная </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/6df2b309.favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="styles/a28c9080.main.css">
+    <link rel="stylesheet" href="styles/f04635a9.main.css">
     <script src="scripts/vendor/d4d78a91.modernizr.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/sss.css">
+
+
 
   </head>
   <body>
@@ -27,13 +31,12 @@
 
   <!-- 
         #########################
-        #     HEADER            #
+        #     HEADER  HOME      #
         #########################
   -->
 
-  <header id="header" class="header-home">
-
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<header id="header" class="header-home">
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -44,10 +47,8 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Интернет магазин модной бижутерии</a>
+    <a class="navbar-brand" href="index.html">Интернет магазин модной бижутерии</a>
   </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li><a href="page.html">Оплата</a></li>
@@ -88,26 +89,27 @@
         </ul>
       </li>
     </ul>
-</div>
+   </div>
   </div><!-- /.navbar-collapse -->
-
-</nav>
+ </nav>
 </header>
 
-
-
-
-  <!-- 
+ <!-- 
         #########################
         #     MAIN              #
         #########################
   -->
 
-  <div class="main-home">
-  	<div class="container">
-  		<div class="row">
-  			<aside class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-  				<img src="images/logo.png" class="img-responsive">
+<div class="main-home">
+   <div class="container">
+      <div class="row">
+      
+         <!--  #  SIDEBAR  # -->
+
+  	     <aside class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+  	     	<a href="index.html">
+  	       <img src="images/logo.jpg" class="img-responsive">
+  	       </a>
 
   				<!--#MENU -->
   				<div class="panel panel-custom">
@@ -120,9 +122,7 @@
                            <li><a href="#">Как купить</a></li>
                            <li><a href="#">Доставка</a></li>
                            <li><a href="#">Оплата</a></li>
-
-
-  						</ul>
+                       </ul>
   					</div>
   				</div>
   			    <!--#END MENU -->
@@ -137,91 +137,53 @@
                            <li><a href="catalog.html">Кольца</a></li>
                            <li><a href="#">Браслеты</a></li>
                            <li><a href="#">Колье</a></li>
-
-
   						</ul>
   					</div>
   				</div>
   			    <!--#END CATEGORY -->
 
-  			  <!--#CATEGORY -->
+  			  <!--#SOCIAL -->
   				<div class="panel panel-custom">
   					<div class="panel panel-heading">
   						Мы в соц сетях
   					</div>
-  					<div class="panel-body">
-  						<ul class="nav nav-pills nav-stacked">
-                           <li><a href="#">ОК</a></li>
-                           <li><a href="#">ВК</a></li>
-                           <li><a href="#">Instagram</a></li>
-                           <li><a href="#">Twitter</a></li>
-
-
-
-  						</ul>
-
-  				<!-- 
-                  #########################
-                  #     SALE             #
-                  #########################
-                  -->
-
-                  <div class="row">
-                  <div class="panel panel-custom">
+  					<div class="panel-body social">
+                      <a href="#"><img src="images/twitter.png"></a>
+                      <a href="#"><img src="images/vkontakte.png"></a>
+                      <a href="#"><img src="images/odnoklassniki.png"></a>
+                      <a href="#"><img src="images/facebook.png"></a>
+                   </div>
+  				</div>
+  			    <!--#END SOCIAL -->
+  			    
+  			    <!--#SALE MODULE -->
+  				<div class="panel panel-custom">
   					<div class="panel panel-heading">
   						Акции
   					</div>
-  					<br>
-  					<br>
-  					<br>
-                  	 <div class="col-lg-12">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
+  					<div class="panel-body">
+  					  <!-- product-->
+  					  <div class="product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product4.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	 <h3>Колье</h3>
+                  			  <p class="price">700р
+                  			  <small class="price-old">1300р</small></p>
 
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  			  <a href="#" class="btn btn-danger btn-xs pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  	                      	 <div class="col-lg-12">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
+                  		 <!-- end product-->
+                  	 </div><!-- end panel-body-->
+  				</div><!-- end panel-->
+  			    <!--#END SALE MODULE -->
+  			</aside>
 
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
-                  		    </div>
-                  		 </div>
-                  	    </div>
-                  	                      	 <div class="col-lg-12">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
+            <!--  #  END SIDEBAR  # -->
 
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
-                  		    </div>
-                  		 </div>
-                  	    </div>
-
-
-                  </div>
-                  </div>
-  					</div>
-  			    <!--#END CATEGORY -->
-
-             </aside>
-  			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <!--  #  CONTENT  # -->
+  			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
   				  <!-- 
                   #########################
                   #     CONTENT TOP       #
@@ -229,169 +191,179 @@
                   -->
                   <div class="content-top">
 
-                  <!-- 
-                  #########################
-                  #     SLIDER             #
-                  #########################
-                  -->
-
-                  <div class="slider hidden-xs">
+  			       <!--#SLIDER -->
+                  <div class="slider">
+ 	                <img src="images/slide2.jpg" class="img-responsive">
+ 	                <img src="images/slide1.jpg" class="img-responsive">
                   </div>
+  			       <!--#END SLIDER -->
 
-                  <!-- 
-                  #########################
-                  #     LATEST            #
-                  #########################
-                  -->
+  			      <!--#LATEST MODULE -->
                   <section class="latest">
                   	<div class="latest-heading">
                   		<h3>Новинки</h3>
                   	</div>
-                  <div class="row">
-                  	<div class="col-lg-6">
-                  		<div class="product">
-                  			<a href="product-one.html">
-                  			<img src="images/product1.jpg" class="img-responsive">
-                  			</a>
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+     				 <!-- product-->
+                  	 <div class="col-lg-6 col-md-6 col-sm-6 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                    <div class="col-lg-6">
-                  		<div class="product">
-                  			<img src="images/product2.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		<!-- end product-->
+                     <!-- product-->
+                  	 <div class="col-lg-6 col-md-6 col-sm-6 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  	                        <div class="col-lg-6">
-                  		<div class="product">
-                  			<img src="images/product3.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		<!-- end product-->
+                  	 <!-- product-->
+                  	 <div class="col-lg-6 col-md-6 col-sm-6 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  	 <div class="col-lg-6">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		<!-- end product-->
+                     <!-- product-->
+                  	 <div class="col-lg-6 col-md-6 col-sm-6 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-
-                  </div>
+                  		<!-- end product-->
                   </section>
+  			      <!--#END LATEST MODULE -->
 
-                     <!-- 
-                  #########################
-                  #     FEATURES            #
-                  #########################
-                  -->
+  		          <!--#FEATURES MODULE -->
                   <section class="latest">
                   	<div class="latest-heading">
                   		<h3>Рекомендуем</h3>
                   	</div>
-                  <div class="row">
-                  	 <div class="col-lg-4">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+     				 <!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  	   <div class="col-lg-4">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		<!-- end product-->
+                  	<!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  	                      	   <div class="col-lg-4">
-                  		<div class="product">
-                  			<img src="images/product4.jpg" class="img-responsive">
-                  			<div class="product-title">
-
-                  			<h3>Колье</h3>
-                  			<p class="price">
-                  				999р
-                  			</p>
-                  			<a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		<!-- end product-->
+                  	 <!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
                   		    </div>
                   		 </div>
-                  	    </div>
-                  </div>
+                  		<!-- end product-->
+                  		     				 <!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		    </div>
+                  		 </div>
+                  		<!-- end product-->
+                  	<!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		    </div>
+                  		 </div>
+                  		<!-- end product-->
+                  	 <!-- product-->
+                  	 <div class="col-lg-4 col-md-4 col-sm-4 product">
+                  	    <a href="product-one.html">
+                  	    <img src="images/product2.jpg" class="img-responsive"></a>
+                  		  <div class="product-title">
+                  		  	<h3>Колье</h3>
+                  			  <p class="price">999р</p>
+                  			  <a href="#" class="btn btn-danger pull-right">Купить</a>
+                  		    </div>
+                  		 </div>
+                  		<!-- end product-->
                   </section>
-
-
-                  </div>
-
-
+  			      <!--#END FEATURES MODULE -->
+                </div>
   			</div>
-  		</div>
-  	</div>
-  </div>
+            <!--  #  END CONTENT  # -->
 
-                  <!-- 
-                  #########################
-                  #     FOOTER            #
-                  #########################
-                  -->
 
+  		</div><!--/row-->
+  	 </div><!--/container-->
+  </div><!--/main home -->
+
+ <!-- 
+        #########################
+        #     FOOTER              #
+        #########################
+ -->
 
     <footer class="footer">
       <div class="container">
       	<div class="row">
-      		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
       			Интернет магазин модной бижутерии 2014
       		</div>
-      		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-right">
-      			<small>Сделано в <a href="#">7 утра</a> </small>
-      		</div>
-      	</div>
+      		<div class="col-lg-6 col-md-6 hidden-sm hidden-xs text-left">
+      			<ul class="nav nav-pills">
+                   <li><a href="catalog.html">Каталог</a></li>
+                   <li><a href="catalog.html">Оплата</a></li>
+                   <li><a href="catalog.html">Доставка</a></li>
+                   <li><a href="catalog.html">О магазине</a></li>
+                   <li><a href="catalog.html">Личный кабинет</a></li>
 
+      			</ul>
+      		</div>
+      		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 text-right">
+      			      <a href="#"><img src="images/twitter.png"></a>
+                      <a href="#"><img src="images/vkontakte.png"></a>
+                      <a href="#"><img src="images/odnoklassniki.png"></a>
+                      <a href="#"><img src="images/facebook.png"></a>
+      		</div>
+
+      	</div>
       </div>
     </footer>
-
-
-
-
-
 
 
 
@@ -408,5 +380,16 @@
     </script>
 
         <script src="scripts/b6c3df09.main.js"></script>
+        <script src="assets/sss.min.js"></script>
+        <script>
+$('.slider').sss({
+slideShow : true, // Set to false to prevent SSS from automatically animating.
+startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+transition : 400, // Length (in milliseconds) of the fade transition.
+speed : 3500, // Slideshow speed in milliseconds.
+showNav : true // Set to false to hide navigation arrows.
+});
+</script>
+
 </body>
 </html>
